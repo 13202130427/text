@@ -1,0 +1,21 @@
+{
+    "name": "text/text",
+    "description": "写一个composer包测试",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaozheng",
+            "email": "1067652489@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Text\\Starfish\\": "src/Text/Starfish"
+        }
+    }
+}
