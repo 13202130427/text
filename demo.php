@@ -1,4 +1,4 @@
 <?php
 require_once './vendor/autoload.php';
-use Text\Starfish\Tools;
+use Xiaozheng\Starfish\Tools;
 Tools::Hello();

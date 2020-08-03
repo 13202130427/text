@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Text\Starfish;
+namespace Xiaozheng\Starfish;
 
 
 class Tools

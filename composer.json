@@ -1,6 +1,6 @@
 {
-    "name": "text/text",
-    "description": "写一个composer包测试",
+    "name": "xiaozheng/xiaozheng",
+    "description": "测试composer包",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -13,9 +13,9 @@
     "require": {
         "php" : ">=7.0.0"
     },
-    "autoload": {
+    "autoload" : {
         "psr-4" : {
-            "Text\\Starfish\\": "src/Text/Starfish"
+            "Xiaozheng\\Starfish\\" : "src/Xiaozheng/Starfish"
         }
     }
 }
